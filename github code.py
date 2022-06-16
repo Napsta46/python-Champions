@@ -10,7 +10,7 @@ class PythonChampions:
         self.window.mainloop()
         
     def _setup_main_window(self):
-        self.window.title("Chat Bot")
+        self.window.title("Chat Bots")
         self.window.resizable(width=False, height=False)
         self.window.configure(width=470, height=100)
         
