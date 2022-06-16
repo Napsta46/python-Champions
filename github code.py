@@ -17,6 +17,9 @@ class PythonChampions:
         head_label = Label(self.window,text="Welcome", pady = 10, bg = BG_COlOR)
         head_label.place(relwidth=1)
 
+        bottom_label = Label(self.window, bg="#2C3E50", height=80)
+        bottom_label.place(relwidth=1, rely=0.825)
+
 
         
 
